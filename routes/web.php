@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return "Test";
 });
+
+Route::get('/another-test', function () {
+    return "Test 2";
+});
